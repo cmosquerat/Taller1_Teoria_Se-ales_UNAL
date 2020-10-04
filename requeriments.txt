@@ -1,0 +1,44 @@
+# Electronics packages
+
+## Notebook Extensions
+RISE
+jupyter_contrib_nbextensions
+jupyter-wysiwyg
+#ipywidgets~=7.0.0b1
+ipywidgets
+
+git+https://github.com/innovationOUtside/ipython_magic_tikz
+git+https://github.com/innovationOUtside/ipython_magic_asymptote
+
+# Generic Packages
+#sympy==1.1
+sympy
+scipy
+matplotlib
+graphviz
+
+## General Diagrams
+
+## Block Diagram generators - requires inkscape for SVG output
+blockdiag
+seqdiag
+actdiag
+nwdiag
+
+## Schematic Diagrams
+schemdraw
+
+## Analysis
+pyeda
+ahkab
+control
+
+##slycot requires gfortran compiler
+#slycot
+
+### Linear Circuit Analysis; also uses circuitikz to render circuit schematics
+git+https://github.com/mph-/lcapy.git
+
+#Issue installing ngspice apt-package?
+#PySpice
+#skidl
